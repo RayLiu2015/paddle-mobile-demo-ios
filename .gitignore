@@ -67,5 +67,6 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-
 .DS_Store
+
+ios_cpu/PaddleMobileDemo_iOS/PaddleMobileDemo/paddle_mobile/

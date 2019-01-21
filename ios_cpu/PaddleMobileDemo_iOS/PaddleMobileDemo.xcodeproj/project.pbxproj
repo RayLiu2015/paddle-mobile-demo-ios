@@ -7,20 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC09D58B21CE29B100CF033E /* libpaddle-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC09D58221CE29B100CF033E /* libpaddle-mobile.a */; };
+		FC09D58C21CE29B100CF033E /* params in Resources */ = {isa = PBXBuildFile; fileRef = FC09D58421CE29B100CF033E /* params */; };
+		FC09D58D21CE29B100CF033E /* model in Resources */ = {isa = PBXBuildFile; fileRef = FC09D58521CE29B100CF033E /* model */; };
+		FC09D58E21CE29B100CF033E /* params.mlm in Resources */ = {isa = PBXBuildFile; fileRef = FC09D58621CE29B100CF033E /* params.mlm */; };
+		FC09D58F21CE29B100CF033E /* model.mlm in Resources */ = {isa = PBXBuildFile; fileRef = FC09D58721CE29B100CF033E /* model.mlm */; };
 		FC12E93320EB6B2800807EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12E93220EB6B2800807EF4 /* AppDelegate.m */; };
 		FC12E93620EB6B2800807EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12E93520EB6B2800807EF4 /* ViewController.m */; };
 		FC12E93920EB6B2800807EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12E93720EB6B2800807EF4 /* Main.storyboard */; };
 		FC12E93B20EB6B2900807EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC12E93A20EB6B2900807EF4 /* Assets.xcassets */; };
 		FC12E93E20EB6B2900807EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC12E93C20EB6B2900807EF4 /* LaunchScreen.storyboard */; };
 		FC12E94120EB6B2900807EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC12E94020EB6B2900807EF4 /* main.m */; };
-		FC12E94A20EB6B6800807EF4 /* libpaddle-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC12E94820EB6B6800807EF4 /* libpaddle-mobile.a */; };
 		FC12E94D20EB6BBB00807EF4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC12E94C20EB6BBB00807EF4 /* libstdc++.tbd */; };
 		FC12E95420EB6C0D00807EF4 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC12E95320EB6C0D00807EF4 /* apple.jpg */; };
-		FC51640120EF758D00636C28 /* params in Resources */ = {isa = PBXBuildFile; fileRef = FC5163FF20EF758D00636C28 /* params */; };
-		FC51640220EF758D00636C28 /* model in Resources */ = {isa = PBXBuildFile; fileRef = FC51640020EF758D00636C28 /* model */; };
+		FC4DE96021F5EA6A00FD18A2 /* ssd_model in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE95E21F5EA6A00FD18A2 /* ssd_model */; };
+		FC4DE96121F5EA6A00FD18A2 /* ssd_params in Resources */ = {isa = PBXBuildFile; fileRef = FC4DE95F21F5EA6A00FD18A2 /* ssd_params */; };
+		FC996DF721F0AEC500CEB872 /* mobilenet_model in Resources */ = {isa = PBXBuildFile; fileRef = FC996DF421F0AEC500CEB872 /* mobilenet_model */; };
+		FC996DF821F0AEC500CEB872 /* synset.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC996DF521F0AEC500CEB872 /* synset.txt */; };
+		FC996DF921F0AEC500CEB872 /* mobilenet_params in Resources */ = {isa = PBXBuildFile; fileRef = FC996DF621F0AEC500CEB872 /* mobilenet_params */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC09D58121CE29B100CF033E /* PaddleMobileCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleMobileCPU.h; sourceTree = "<group>"; };
+		FC09D58221CE29B100CF033E /* libpaddle-mobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpaddle-mobile.a"; sourceTree = "<group>"; };
+		FC09D58421CE29B100CF033E /* params */ = {isa = PBXFileReference; lastKnownFileType = file; path = params; sourceTree = "<group>"; };
+		FC09D58521CE29B100CF033E /* model */ = {isa = PBXFileReference; lastKnownFileType = file; path = model; sourceTree = "<group>"; };
+		FC09D58621CE29B100CF033E /* params.mlm */ = {isa = PBXFileReference; lastKnownFileType = file; path = params.mlm; sourceTree = "<group>"; };
+		FC09D58721CE29B100CF033E /* model.mlm */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.mlm; sourceTree = "<group>"; };
 		FC12E92E20EB6B2800807EF4 /* PaddleMobileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaddleMobileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC12E93120EB6B2800807EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC12E93220EB6B2800807EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,12 +44,13 @@
 		FC12E93D20EB6B2900807EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC12E93F20EB6B2900807EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC12E94020EB6B2900807EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC12E94820EB6B6800807EF4 /* libpaddle-mobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libpaddle-mobile.a"; sourceTree = "<group>"; };
-		FC12E94920EB6B6800807EF4 /* PaddleMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleMobile.h; sourceTree = "<group>"; };
 		FC12E94C20EB6BBB00807EF4 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		FC12E95320EB6C0D00807EF4 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
-		FC5163FF20EF758D00636C28 /* params */ = {isa = PBXFileReference; lastKnownFileType = file; path = params; sourceTree = "<group>"; };
-		FC51640020EF758D00636C28 /* model */ = {isa = PBXFileReference; lastKnownFileType = file; path = model; sourceTree = "<group>"; };
+		FC4DE95E21F5EA6A00FD18A2 /* ssd_model */ = {isa = PBXFileReference; lastKnownFileType = file; path = ssd_model; sourceTree = "<group>"; };
+		FC4DE95F21F5EA6A00FD18A2 /* ssd_params */ = {isa = PBXFileReference; lastKnownFileType = file; path = ssd_params; sourceTree = "<group>"; };
+		FC996DF421F0AEC500CEB872 /* mobilenet_model */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_model; sourceTree = "<group>"; };
+		FC996DF521F0AEC500CEB872 /* synset.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = synset.txt; sourceTree = "<group>"; };
+		FC996DF621F0AEC500CEB872 /* mobilenet_params */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_params; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +59,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC12E94D20EB6BBB00807EF4 /* libstdc++.tbd in Frameworks */,
-				FC12E94A20EB6B6800807EF4 /* libpaddle-mobile.a in Frameworks */,
+				FC09D58B21CE29B100CF033E /* libpaddle-mobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC09D58021CE29B100CF033E /* paddle_mobile */ = {
+			isa = PBXGroup;
+			children = (
+				FC4DE95D21F5EA3900FD18A2 /* mobilenet_ssd */,
+				FC996DF321F0AEC500CEB872 /* mobilenet_combine */,
+				FC09D58121CE29B100CF033E /* PaddleMobileCPU.h */,
+				FC09D58221CE29B100CF033E /* libpaddle-mobile.a */,
+				FC09D58321CE29B100CF033E /* superresoltion */,
+			);
+			path = paddle_mobile;
+			sourceTree = "<group>";
+		};
+		FC09D58321CE29B100CF033E /* superresoltion */ = {
+			isa = PBXGroup;
+			children = (
+				FC09D58421CE29B100CF033E /* params */,
+				FC09D58521CE29B100CF033E /* model */,
+				FC09D58621CE29B100CF033E /* params.mlm */,
+				FC09D58721CE29B100CF033E /* model.mlm */,
+			);
+			path = superresoltion;
+			sourceTree = "<group>";
+		};
 		FC12E92520EB6B2800807EF4 = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +109,7 @@
 		FC12E93020EB6B2800807EF4 /* PaddleMobileDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FC12E94720EB6B6800807EF4 /* PaddleMobile */,
-				FC5163FE20EF758D00636C28 /* googlenet_combine */,
+				FC09D58021CE29B100CF033E /* paddle_mobile */,
 				FC12E95320EB6C0D00807EF4 /* apple.jpg */,
 				FC12E93120EB6B2800807EF4 /* AppDelegate.h */,
 				FC12E93220EB6B2800807EF4 /* AppDelegate.m */,
@@ -88,15 +124,6 @@
 			path = PaddleMobileDemo;
 			sourceTree = "<group>";
 		};
-		FC12E94720EB6B6800807EF4 /* PaddleMobile */ = {
-			isa = PBXGroup;
-			children = (
-				FC12E94820EB6B6800807EF4 /* libpaddle-mobile.a */,
-				FC12E94920EB6B6800807EF4 /* PaddleMobile.h */,
-			);
-			path = PaddleMobile;
-			sourceTree = "<group>";
-		};
 		FC12E94B20EB6BBB00807EF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +132,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC5163FE20EF758D00636C28 /* googlenet_combine */ = {
+		FC4DE95D21F5EA3900FD18A2 /* mobilenet_ssd */ = {
 			isa = PBXGroup;
 			children = (
-				FC5163FF20EF758D00636C28 /* params */,
-				FC51640020EF758D00636C28 /* model */,
+				FC4DE95E21F5EA6A00FD18A2 /* ssd_model */,
+				FC4DE95F21F5EA6A00FD18A2 /* ssd_params */,
 			);
-			path = googlenet_combine;
+			path = mobilenet_ssd;
+			sourceTree = "<group>";
+		};
+		FC996DF321F0AEC500CEB872 /* mobilenet_combine */ = {
+			isa = PBXGroup;
+			children = (
+				FC996DF421F0AEC500CEB872 /* mobilenet_model */,
+				FC996DF521F0AEC500CEB872 /* synset.txt */,
+				FC996DF621F0AEC500CEB872 /* mobilenet_params */,
+			);
+			path = mobilenet_combine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +208,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC51640220EF758D00636C28 /* model in Resources */,
-				FC51640120EF758D00636C28 /* params in Resources */,
+				FC09D58D21CE29B100CF033E /* model in Resources */,
+				FC09D58E21CE29B100CF033E /* params.mlm in Resources */,
+				FC09D58C21CE29B100CF033E /* params in Resources */,
 				FC12E93E20EB6B2900807EF4 /* LaunchScreen.storyboard in Resources */,
 				FC12E93B20EB6B2900807EF4 /* Assets.xcassets in Resources */,
 				FC12E95420EB6C0D00807EF4 /* apple.jpg in Resources */,
+				FC996DF821F0AEC500CEB872 /* synset.txt in Resources */,
+				FC4DE96021F5EA6A00FD18A2 /* ssd_model in Resources */,
+				FC996DF921F0AEC500CEB872 /* mobilenet_params in Resources */,
+				FC996DF721F0AEC500CEB872 /* mobilenet_model in Resources */,
+				FC09D58F21CE29B100CF033E /* model.mlm in Resources */,
+				FC4DE96121F5EA6A00FD18A2 /* ssd_params in Resources */,
 				FC12E93920EB6B2800807EF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,7 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z5M2UUN5YV;
+				DEVELOPMENT_TEAM = A798K58VVL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PaddleMobileDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -341,6 +385,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PaddleMobileDemo/PaddleMobile",
+					"$(PROJECT_DIR)/PaddleMobileDemo/paddle_mobile",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.PaddleMobileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z5M2UUN5YV;
+				DEVELOPMENT_TEAM = A798K58VVL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PaddleMobileDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -364,6 +409,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PaddleMobileDemo/PaddleMobile",
+					"$(PROJECT_DIR)/PaddleMobileDemo/paddle_mobile",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orange.PaddleMobileDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
